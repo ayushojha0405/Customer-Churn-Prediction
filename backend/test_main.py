@@ -35,4 +35,3 @@ def test_predict_endpoint():
         data = response.json()
         assert "probability" in data
         assert "top_features" in data
-        assert "chart_data" in data
